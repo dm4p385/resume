@@ -131,11 +131,12 @@
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
       {SDE-1}{Jul 2025 -- Present}
-      {Vegapay}{Bengaluru, KA}
+      {\textbf{Vegapay} (Credit Fintech Startup)}{Bengaluru, KA}
       \resumeItemListStart
+        \resumeItem{Built a run-health monitoring and alerting platform for reporting and data pipelines by modeling execution time windows, automatically detecting failed or missing runs across scheduled workflows.}
+        \resumeItem{Owned a \textbf{Spring Boot} reporting platform on \textbf{ClickHouse} and \textbf{Postgres} EDW, generating and \textbf{validating reports} over \textbf{10M+ row datasets} and \textbf{exporting 400MB+ files} with secure \textbf{S3/SFTP delivery} and full run auditability.}
         \resumeItem{Designed and developed \textbf{Athena}, a multimodal \textbf{\textit{AI assistant}} with \textbf{real-time voice/text interaction}, leveraging \textbf{\textit{LangGraph}} agents, \textbf{\textit{RAG}} (\textbf{\textit{vector}} + \textbf{\textit{graph DB}}), \textbf{\textit{Whisper}}, and \textbf{\textit{Kokoro-TTS}} to enable intelligent onboarding and contextual guidance.}
         \resumeItem{Optimized PostgreSQL to ClickHouse data sync pipeline (Temporal + Kubernetes) by implementing batched \textit{COPY}-based ingestion, \textbf{reducing latency from 2.5 s to 0.6 s} per 10 k-row batch and \textbf{improving overall ETL throughput by 4x}.}
         
@@ -144,7 +145,7 @@
 
     \resumeSubheading
       {SDE Intern}{Jan 2025 -- June 2025}
-      {Vegapay}{Bengaluru, KA}
+      {\textbf{Vegapay} (Credit Fintech Startup)}{Bengaluru, KA}
       \resumeItemListStart
         \resumeItem{Built WaveCtrl, \textbf{a full-stack automation tool} using \textbf{\textit{Streamlit}}, \textbf{\textit{FastAPI}}, and \textbf{\textit{Celery}}, enabling teams to configure and trigger data ingestion pipelines through a self-serve dashboard; \textbf{reduced manual onboarding time by automating backend workflows} and job scheduling via \textbf{\textit{RESTful APIs}} and async task queues.}
         \resumeItem{Migrated financial reporting queries from \textit\textbf{{Amazon Athena}} to \textbf{ClickHouse}, \textit{\textbf{reducing query execution time by 70\%}} and \textit{\textbf{cutting operational costs by 50\%}}, enhancing fraud detection and transaction analytics.}
@@ -174,13 +175,6 @@
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{AI Terminal Autocomplete Engine} $|$ \emph{Python, Go, FAISS, LLM}}{April 2025}
-          \resumeItemListStart
-            \resumeItem{Engineered a \textbf{modular backend in Python} for prediction logic and a \textbf{real-time interactive TUI} in \textit{Go} using Bubble Tea, communicating efficiently via \textit{gRPC} for \textbf{low-latency suggestions} inside the terminal}
-            \resumeItem{Developed a \textbf{context-aware prediction engine} that combines \textbf{\textit{Trie}-based prefix matching}, \textbf{\textit{FAISS} vector search}, and \textbf{LLM-based Retrieval-Augmented Generation (RAG)} to deliver intelligent, ranked shell command suggestions}
-            \resumeItem{Designed a custom \textbf{\textit{FAISS}-powered prompt caching system} to store and retrieve semantically similar user prompts, significantly reducing redundant LLM calls and improving system responsiveness}
-          \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{Distributed In-Memory Cache} $|$ \emph{Go, Distributed Systems}}{Aug 2024}
           \resumeItemListStart
